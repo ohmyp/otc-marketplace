@@ -1,0 +1,27 @@
+/* BODY */
+@import url(./blocks/body/body.css);
+
+/* HEADER */
+@import url(./blocks/header/__burger/header__burger.css);
+@import url(./blocks/header/__container/header__container.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__nav-link/header__nav-link.css);
+@import url(./blocks/header/__navigation/header__navigation.css);
+@import url(./blocks/header/__underline/header__underline.css);
+@import url(./blocks/header/header.css);
+
+/* MAIN */
+@import url(./blocks/main/__background-img/main__background-img.css);
+@import url(./blocks/main/__btn-container/main__btn-container.css);
+@import url(./blocks/main/__button/main__button.css);
+@import url(./blocks/main/__button/_theme/main__button_theme_dark.css);
+@import url(./blocks/main/__container/main__container.css);
+@import url(./blocks/main/__title/main__title.css);
+@import url(./blocks/main/main.css);
+
+/* CARD */
+@import url(./blocks/card/__image/card__image.css);
+@import url(./blocks/card/__price/card__price.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/card.css);
+
