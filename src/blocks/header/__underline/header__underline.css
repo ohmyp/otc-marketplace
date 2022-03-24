@@ -1,3 +1,9 @@
-.header__underline{
-    
+.header__underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  border: 1px solid white;
+  border-top: transparent;
 }

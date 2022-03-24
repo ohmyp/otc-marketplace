@@ -1,3 +1,24 @@
 .header__nav-link{
+    list-style: none;
+    margin: 0 37px;
+    padding: 20px 0;
+    position: relative;
+    opacity: 0.6;
+}
+.header__nav-link.selected{
+    opacity: 1;
+}
+.header__nav-link a{
+    text-decoration: none;
+    color: white;
+}
+.header__nav-link.selected::after{
+    content: "";
+    position: absolute;
+    height: 15px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border: 0.5px solid white;
     
 }

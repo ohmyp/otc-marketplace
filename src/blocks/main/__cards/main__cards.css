@@ -1,0 +1,10 @@
+.main__cards{
+  width: 50%;
+  height: 580px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}

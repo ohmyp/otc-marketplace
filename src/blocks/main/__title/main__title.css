@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Bamf Italic';
+  src: url('../../../fonts/bamfitalic.ttf');
+}
 .main__title{
-    
+  font-family: 'Bamf Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 82px;
+  line-height: 97.39%;
+  /* or 161px */
+  
+}
+.main__title i{
+  display: inline-block;
+  width: 220px;
+  background: linear-gradient(90deg, #1BCAF1 0%, #D45FAB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
