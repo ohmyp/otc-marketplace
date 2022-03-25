@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/otc-marketplace/static/css/main.aa88f3c1.css",
-    "main.js": "/otc-marketplace/static/js/main.8596debb.js",
+    "main.css": "/otc-marketplace/static/css/main.daab8f25.css",
+    "main.js": "/otc-marketplace/static/js/main.28551fb7.js",
     "static/js/787.21bba038.chunk.js": "/otc-marketplace/static/js/787.21bba038.chunk.js",
     "static/media/background image.png": "/otc-marketplace/static/media/background image.804c324b1ea179ad3e31.png",
     "static/media/blvck.png": "/otc-marketplace/static/media/blvck.45600078424702ab8154.png",
@@ -10,12 +10,12 @@
     "static/media/small-logo.svg": "/otc-marketplace/static/media/small-logo.f78d82d28d1ea083b6b4cac321dbc937.svg",
     "index.html": "/otc-marketplace/index.html",
     "static/media/underline.svg": "/otc-marketplace/static/media/underline.5fc742994f0da0216997fc5c1350f025.svg",
-    "main.aa88f3c1.css.map": "/otc-marketplace/static/css/main.aa88f3c1.css.map",
-    "main.8596debb.js.map": "/otc-marketplace/static/js/main.8596debb.js.map",
+    "main.daab8f25.css.map": "/otc-marketplace/static/css/main.daab8f25.css.map",
+    "main.28551fb7.js.map": "/otc-marketplace/static/js/main.28551fb7.js.map",
     "787.21bba038.chunk.js.map": "/otc-marketplace/static/js/787.21bba038.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa88f3c1.css",
-    "static/js/main.8596debb.js"
+    "static/css/main.daab8f25.css",
+    "static/js/main.28551fb7.js"
   ]
 }
