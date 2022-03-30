@@ -4,15 +4,19 @@
     padding: 20px 0;
     position: relative;
     opacity: 0.6;
+    transition: 0.25s ease;
+    -webkit-transition: 0.25s ease;
+    -moz-transition: 0.25s ease;
+    -ms-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
 }
-.header__nav-link.selected{
-    opacity: 1;
-}
+
 .header__nav-link a{
     text-decoration: none;
     color: white;
 }
-.header__nav-link.selected::after{
+.header__nav-link.selected::after,
+.header__nav-link:hover::after{
     content: "";
     position: absolute;
     height: 15px;
@@ -20,5 +24,19 @@
     left: 50%;
     transform: translate(-50%);
     border: 0.5px solid white;
-    
+    animation: palka 0.5s;
+    -webkit-animation: palka 0.5s;
+}
+.header__nav-link.selected,
+.header__nav-link:hover{
+    opacity: 1;
+}
+
+@keyframes palka{
+    from {
+        height: 0px;
+    }
+    to {
+        height: 15px;
+    }
 }

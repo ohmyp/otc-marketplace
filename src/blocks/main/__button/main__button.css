@@ -9,5 +9,22 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-
+  transition: transform 0.5s, background-color 0.5s ;
+  -webkit-transition: transform 0.5s, background-color 0.5s ;
+  -moz-transition: transform 0.5s, background-color 0.5s ;
+  -ms-transition: transform 0.5s, background-color 0.5s ;
+  -o-transition: transform 0.5s, background-color 0.5s ;
+}
+.main__button:hover {
+  color: white;
+  background-color: transparent;
+  transform: scale(105%);
+  -webkit-transform: scale(105%);
+  -moz-transform: scale(105%);
+  -ms-transform: scale(105%);
+  -o-transform: scale(105%);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }

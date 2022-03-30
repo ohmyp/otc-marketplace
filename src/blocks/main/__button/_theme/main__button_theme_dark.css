@@ -1,5 +1,8 @@
 .main__button_theme_dark{
   color: white;
   background-color: transparent;
-    
+}
+.main__button_theme_dark:hover{
+  color: black;
+  background-color: white;
 }

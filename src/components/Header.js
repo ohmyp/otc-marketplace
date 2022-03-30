@@ -16,7 +16,6 @@ function Header() {
             {/* <button className="header__burger">x</button> */}
           </ul>
         </div>
-      {/* <img className="header__underline" src={underlinePath} alt="Header underline"></img> */}
     </header>
   );
 }

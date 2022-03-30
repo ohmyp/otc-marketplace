@@ -6,7 +6,7 @@ function Main() {
   return (
     <section className="main">
       <div className="main__container">
-        <h1 className="main__title"><i>otc</i><br />market<br />place</h1>
+        <h1 className="main__title"><i>otc</i><br />market<br />place <span className="main__emojii">🤑</span></h1>
         <div className="main__btn-container">
           <button className="main__button">Buy</button>
           <button className="main__button main__button_theme_dark">Sell</button>
