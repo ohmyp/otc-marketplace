@@ -1,6 +1,9 @@
 /* BODY */
 @import url(./blocks/body/body.css);
 
+/* SWIPER */
+@import url(./blocks/swiper/swiper.css);
+
 /* HEADER */
 @import url(./blocks/header/__burger/header__burger.css);
 @import url(./blocks/header/__container/header__container.css);
@@ -21,9 +24,37 @@
 @import url(./blocks/main/__cards/main__cards.css);
 @import url(./blocks/main/__emojii/main__emojii.css);
 
+
 /* CARD */
 @import url(./blocks/card/__image/card__image.css);
 @import url(./blocks/card/__price/card__price.css);
 @import url(./blocks/card/__title/card__title.css);
 @import url(./blocks/card/card.css);
 
+/* MINI-CARD */
+@import url(./blocks/mini-card/__image/mini-card__image.css);
+@import url(./blocks/mini-card/__price/mini-card__price.css);
+@import url(./blocks/mini-card/__title/mini-card__title.css);
+@import url(./blocks/mini-card/mini-card.css);
+
+/* OFFER */
+@import url(./blocks/offer/offer.css);
+
+/* SLIDE */
+@import url(./blocks/slide/slide.css);
+@import url(./blocks/slide/__title//slide__title.css);
+@import url(./blocks/slide/__price/slide__price.css);
+
+/* POPULAR */
+@import url(./blocks/popular/popular.css);
+@import url(./blocks/popular/__title/popular__title.css);
+@import url(./blocks/popular/__list/popular__list.css);
+
+/* WHITELISTS */
+@import url(./blocks/whitelists/whitelists.css);
+@import url(./blocks/whitelists/__title/whitelists__title.css);
+@import url(./blocks/whitelists/__filter/whitelists__filter.css);
+@import url(./blocks/whitelists/__filter-button/whitelists__filter-button.css);
+@import url(./blocks/whitelists/__filter-button/_active/_active.css);
+@import url(./blocks/whitelists/__card-list/whitelists__card-list.css);
+@import url(./blocks/whitelists/__background-picture/whitelists__background-picture.css);

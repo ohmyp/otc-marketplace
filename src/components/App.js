@@ -1,12 +1,16 @@
-import Header from "./Header";
-import Main from "./Main";
+import Main from "../pages/Main";
+import MarketList from "../pages/MarketList";
+import { Route } from "react-router-dom";
 
 function App() {
-  
   return (
     <>
-      <Header />
-      <Main />
+      <Route exact path="/">
+        <Main />
+      </Route>
+      <Route path="/market">
+        <MarketList />
+      </Route>
     </>
   );
 }

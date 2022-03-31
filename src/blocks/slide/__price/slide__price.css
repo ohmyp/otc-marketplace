@@ -1,0 +1,11 @@
+.slide__price {
+  margin: 6px 0 0 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}

@@ -1,0 +1,7 @@
+.whitelists__card-list{
+    height: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-gap: 100px 60px;
+}

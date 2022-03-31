@@ -1,0 +1,14 @@
+.mini-card__title {
+  margin: 0 0 0 10px;
+  align-self: end;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+
+  grid-area: title;
+}

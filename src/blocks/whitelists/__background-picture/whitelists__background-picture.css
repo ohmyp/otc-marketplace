@@ -1,0 +1,15 @@
+.whitelist__background-picture{
+    z-index: 0;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+.whitelist__background-picture:nth-of-type(1){
+    top: 300px;
+    left: -300px;
+}
+
+.whitelist__background-picture:nth-of-type(2){
+    top: 1200px;
+    right: -200px;
+}

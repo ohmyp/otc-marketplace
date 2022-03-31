@@ -1,0 +1,12 @@
+.mini-card {
+  margin: 0 0 10px 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  align-items: start;
+  justify-items: left;
+  grid-template-areas:
+    "img title"
+    "img price";
+}

@@ -1,0 +1,26 @@
+.slide{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 95%;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#slide-1{
+    background-image: url(../../images/slide1.png);
+}
+
+#slide-2{
+    background-image: url(../../images/slide2.png);
+}
+
+#slide-3{
+    background-image: url(../../images/slide3.png);
+}
+
+#slide-4{
+    background-image: url(../../images/slide4.png);
+}

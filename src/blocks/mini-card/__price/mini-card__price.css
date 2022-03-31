@@ -1,0 +1,14 @@
+.mini-card__price {
+  margin: 0 0 0 10px;
+  align-self: start;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+
+  grid-area: price;
+}

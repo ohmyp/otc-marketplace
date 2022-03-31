@@ -1,0 +1,5 @@
+.mini-card__image{
+    width: 65px;
+    height: 65px;
+    grid-area: img;
+}
