@@ -1,0 +1,13 @@
+.header__nav-search{
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: white;
+  padding: 5px 10px 5px 25px;
+}
