@@ -13,17 +13,31 @@
   text-align: center;
   align-items: center;
   background-color: black;
+  z-index: 100;
 }
 
 .menu__profile{
   width: 30px;
 }
 
-.menu__button{
-  margin-top: 10px;
-  width: 25px;
+.menu__notifications{
+  margin: 5px 0 0 0;
+  position: relative;
 }
 
-.menu__button:last-child{
-  margin-bottom: 10px;
+.menu__button{
+  width: 20px;
+}
+.dotted::before{
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: red;
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }

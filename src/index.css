@@ -27,6 +27,7 @@
 @import url(./blocks/main/main.css);
 @import url(./blocks/main/__cards/main__cards.css);
 @import url(./blocks/main/__emojii/main__emojii.css);
+@import url(./blocks/main/__subtitle/main__subtitle.css);
 
 
 /* CARD */
@@ -62,3 +63,16 @@
 @import url(./blocks/whitelists/__filter-button/_active/_active.css);
 @import url(./blocks/whitelists/__card-list/whitelists__card-list.css);
 @import url(./blocks/whitelists/__background-picture/whitelists__background-picture.css);
+
+/* FOOTER */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__socials-icon/footer__socials-icon.css);
+@import url(./blocks/footer/__socials-text/footer__socials-text.css);
+@import url(./blocks/footer/__socials/footer__socials.css);
+@import url(./blocks/footer/__text-text/footer__text-text.css);
+@import url(./blocks/footer/__text-title/footer__text-title.css);
+@import url(./blocks/footer/__text/footer__text.css);
+@import url(./blocks/footer/__border/footer__border.css);
+
+/* NOTIFICATIONS */
+@import url(./blocks/notifications/notifications.css);

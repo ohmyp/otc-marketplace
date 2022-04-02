@@ -1,0 +1,20 @@
+.notifications{
+  position: absolute;
+  right: calc(100% + 5px);
+  top: 0;
+  border: 1px solid white;
+  background: black;
+  border-radius: 15px 0 15px 15px;
+  -webkit-border-radius: 15px 0 15px 15px;
+  -moz-border-radius: 15px 0 15px 15px;
+  -ms-border-radius: 15px 0 15px 15px;
+  -o-border-radius: 15px 0 15px 15px;
+}
+
+.notifications p{
+  margin: 0;padding: 15px;
+}
+.notifications p:not(:last-child){
+  border-bottom: 1px solid white;
+
+}

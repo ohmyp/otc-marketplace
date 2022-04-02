@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 function Main() {
@@ -5,6 +6,7 @@ function Main() {
     <>
       <Header />
       <Intro />
+      <Footer />
     </>
   );
 }
