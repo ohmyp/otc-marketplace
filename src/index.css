@@ -76,3 +76,16 @@
 
 /* NOTIFICATIONS */
 @import url(./blocks/notifications/notifications.css);
+
+/* CONNECTION */
+@import url(./blocks/connection/__circle/connection__circle.css);
+@import url(./blocks/connection/__text-subtitle/connection__text-subtitle.css);
+@import url(./blocks/connection/__text-title/connection__text-title.css);
+@import url(./blocks/connection/__text/connection__text.css);
+@import url(./blocks/connection/__wallets-wallet-icon/connection__wallets-wallet-icon.css);
+@import url(./blocks/connection/__wallets-wallet-name/connection__wallets-wallet-name.css);
+@import url(./blocks/connection/__wallets-wallet/connection__wallets-wallet.css);
+@import url(./blocks/connection/__wallets/connection__wallets.css);
+@import url(./blocks/connection/connection.css);
+@import url(./blocks/connection/__wallets-showmore/connection__wallets-showmore.css);
+
