@@ -1,0 +1,10 @@
+.connection__wallets-wallet{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+
+.connection__wallets-wallet:not(:last-child){
+  border-bottom: 1px solid white;
+}
