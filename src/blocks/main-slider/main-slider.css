@@ -1,0 +1,33 @@
+.swiper {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.main-slider .swiper-scrollbar {
+  margin-left: 33%;
+  width: 33% !important;
+  opacity: 0.8;
+}
+
+.main-slider .swiper-wrapper {
+  margin-left: 9px;
+  width: 600px !important;
+  height: 620px !important;
+  transition: ease 1s !important;
+}
+
+.main-slider .swiper-slide {
+  display: flex;
+  margin: 0 !important;
+  align-items: center;
+}
+
+.main-slider .swiper .slide__image {
+  width: 50%;
+  height: 50%;
+}
+
+.main-slider .swiper-scrollbar-drag {
+  cursor: pointer;
+  background-color: white;
+}

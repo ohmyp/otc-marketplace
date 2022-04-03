@@ -1,5 +1,6 @@
 import Main from "../pages/Main";
 import MarketList from "../pages/MarketList";
+import AboutUs from "../pages/AboutUs";
 import { Route } from "react-router-dom";
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
       </Route>
       <Route path="/market">
         <MarketList />
+      </Route>
+      <Route path="/aboutUs">
+        <AboutUs />
       </Route>
     </>
   );
