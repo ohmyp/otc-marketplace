@@ -1,8 +1,14 @@
 /* BODY */
 @import url(./blocks/body/body.css);
 
-/* SWIPER */
-@import url(./blocks/swiper/swiper.css);
+/* MARKET-SLIDER */
+@import url(./blocks/marker-slider/market-slider.css);
+
+/* MAIN-SLIDER */
+@import url(./blocks/main-slider/main-slider.css);
+
+/* ABOUT-SLIDER */
+@import url(./blocks/about-slider/about-slider.css);
 
 /* HEADER */
 @import url(./blocks/header/__burger/header__burger.css);
@@ -17,6 +23,12 @@
 @import url(./blocks/header/__nav-icon/header__nav-icon.css);
 @import url(./blocks/header/__nav-menu/header__nav-menu.css);
 
+/* STATISTIC */
+@import url(./blocks/statistic/statistic.css);
+@import url(./blocks/statistic/__element/statistic__element.css);
+@import url(./blocks/statistic/__title/statistic__title.css);
+@import url(./blocks/statistic/__subtitle/statistic__subtitle.css);
+
 /* MAIN */
 @import url(./blocks/main/__background-img/main__background-img.css);
 @import url(./blocks/main/__btn-container/main__btn-container.css);
@@ -24,17 +36,24 @@
 @import url(./blocks/main/__button/_theme/main__button_theme_dark.css);
 @import url(./blocks/main/__container/main__container.css);
 @import url(./blocks/main/__title/main__title.css);
+@import url(./blocks/main/__title/_theme/_about-us.css);
 @import url(./blocks/main/main.css);
 @import url(./blocks/main/__cards/main__cards.css);
 @import url(./blocks/main/__emojii/main__emojii.css);
 @import url(./blocks/main/__subtitle/main__subtitle.css);
+@import url(./blocks/main/__arrow/main__arrow.css);
 
+/* FUTURE */
+@import url(./blocks/future/future.css);
+@import url(./blocks/future/__title/future__title.css);
+@import url(./blocks/future/__text/future__text.css);
 
 /* CARD */
 @import url(./blocks/card/__image/card__image.css);
 @import url(./blocks/card/__price/card__price.css);
 @import url(./blocks/card/__title/card__title.css);
 @import url(./blocks/card/card.css);
+@import url(./blocks/card/_theme/_slide.css);
 
 /* MINI-CARD */
 @import url(./blocks/mini-card/__image/mini-card__image.css);
@@ -54,6 +73,18 @@
 @import url(./blocks/popular/popular.css);
 @import url(./blocks/popular/__title/popular__title.css);
 @import url(./blocks/popular/__list/popular__list.css);
+
+/* PROPERTIES */
+@import url(./blocks/properties/properties.css);
+@import url(./blocks/properties/__top-arc/properties__top-arc.css);
+@import url(./blocks/properties/__grid/properties__grid.css);
+@import url(./blocks/properties/__bottom-arc/properties__bottom-arc.css);
+
+/* INFO-CARD */
+@import url(./blocks/info-card/info-card.css);
+@import url(./blocks/info-card/__logo/info-card__logo.css);
+@import url(./blocks/info-card/__title/info-card__title.css);
+@import url(./blocks/info-card/__text/info-card__text.css);
 
 /* WHITELISTS */
 @import url(./blocks/whitelists/whitelists.css);

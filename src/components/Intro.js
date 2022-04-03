@@ -1,8 +1,6 @@
-import heathensImagePath from "../images/heathens.png";
-import blvckImagePath from "../images/blvck.png";
 import backgroundImagePath from "../images/background image.png";
 
-import Card from "./Card";
+import MainSlider from "./MainSlider";
 
 function Intro() {
   return (
@@ -23,18 +21,7 @@ function Intro() {
         <p className="main__subtitle">Our goal is to make sure that all your transactions take place with fully vetted buyers and sellers</p>
       </div>
       <div className="main__cards">
-        <Card
-          id="heathens-card"
-          title="Heathens"
-          price={200}
-          imagePath={heathensImagePath}
-        />
-        <Card
-          id="blvck-card"
-          title="Blvck"
-          price={450}
-          imagePath={blvckImagePath}
-        />
+        <MainSlider />
         <img
           className="main__background-img"
           src={backgroundImagePath}

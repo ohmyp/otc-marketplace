@@ -1,0 +1,12 @@
+.info-card__text {
+  margin: 0 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+
+  opacity: 0.5;
+  color: #ffffff;
+}

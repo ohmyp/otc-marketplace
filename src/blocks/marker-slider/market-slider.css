@@ -1,0 +1,25 @@
+.swiper{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.market-slider .swiper-scrollbar {
+  margin-left: 33%;
+  width: 33% !important;
+  opacity: 0.8;
+}
+
+.market-slider .swiper-wrapper {
+  width: 800px;
+  transition: ease 1s !important;
+}
+
+.market-slider .swiper .slide__image {
+  width: 50%;
+  height: 50%;
+}
+
+.market-slider .swiper-scrollbar-drag {
+  cursor: pointer;
+  background-color: white;
+}

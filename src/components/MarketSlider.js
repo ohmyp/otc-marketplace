@@ -1,18 +1,20 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Autoplay, Scrollbar, A11y} from "swiper";
 
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
+
 
 function MarketSlider() {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      className="market-slider"
+      modules={[Scrollbar, A11y, Autoplay]}
       spaceBetween={0}
       slidesPerView={1}
       scrollbar={{ draggable: true, dragSize: 60 }}
+      autoplay={{ delay: 4000, disableOnInteraction:false }}
     >
       <SwiperSlide>
         <div id="slide-1" className="slide">

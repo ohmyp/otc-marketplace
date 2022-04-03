@@ -1,13 +1,14 @@
 import Header from "../components/Header";
 import Card from "../components/Card";
 import MarketSlider from "../components/MarketSlider";
+import Footer from "../components/Footer";
 
 import heathensImagePath from "../images/heathens.png";
 import blvckImagePath from "../images/blvck.png";
-import circlePath from "../images/background-circle.png";
-
 import krakenImagePath from "../images/kraken.png";
 import wariorsImagePath from "../images/warriors.png";
+
+import circlePath from "../images/background-circle.png";
 
 function MarketList() {
   return (
@@ -111,6 +112,7 @@ function MarketList() {
           alt="Background circle 2"
         />
       </section>
+      <Footer />
     </>
   );
 }

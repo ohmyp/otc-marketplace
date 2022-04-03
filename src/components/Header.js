@@ -14,7 +14,7 @@ function Header() {
           <ul className="header__navigation">
             <li className={"header__nav-link " + (history === '/' ?'selected':"")}><Link to='/' >New</Link></li>
             <li className={"header__nav-link " + (history === '/market' ?'selected':"")}><Link to='/market'>Market</Link></li>
-            <li className="header__nav-link"><Link>About Us</Link></li>
+            <li className={"header__nav-link " + (history === '/aboutUs' ?'selected':"")}><Link to='/aboutUs'>About Us</Link></li>
             <li className="header__nav-link"><Link>Contacts</Link></li>
             <li className="header__nav-link"><Link>Soon 🔥</Link></li>
             <div className="header__nav-search-container">

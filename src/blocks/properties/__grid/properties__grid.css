@@ -1,0 +1,9 @@
+.properties__grid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 25px;
+    align-items: center;
+    justify-items: center;
+    width: 700px;
+}
