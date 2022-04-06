@@ -5,6 +5,8 @@ import likePath from '../images/icons/like.svg'
 import shoppingCartPath from '../images/icons/shopping-cart.svg'
 import walletPath from '../images/icons/wallet.svg'
 import Notifications from './Notifications';
+import Liked from './Liked';
+import Wallet from './Wallet';
 const ProfileButton = () => {
 
   const [menuOpened, setmenuOpened] = React.useState(false)
@@ -32,14 +34,14 @@ const ProfileButton = () => {
         </div>
         <div className='menu__notifications'>
           <img className='menu__button' src={likePath} name='liked' onClick={openTab}/>
-          {tabOpened === 'liked' &&  <Notifications />}
+          {tabOpened === 'liked' &&  <Liked />}
         </div>
         <div className='menu__notifications'>
           <img className='menu__button' src={shoppingCartPath} />
         </div>
         <div className='menu__notifications' >
           <img className='menu__button' src={walletPath} name='wallet' onClick={openTab}/>
-          {tabOpened === 'wallet' &&  <Notifications />}
+          {tabOpened === 'wallet' &&  <Wallet />}
         </div>
       </>
       }

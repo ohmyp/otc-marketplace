@@ -3,6 +3,7 @@ import MarketList from "../pages/MarketList";
 import AboutUs from "../pages/AboutUs";
 import { Route } from "react-router-dom";
 import ConnectWallet from "../pages/ConnectWallet";
+import OurContacts from "../pages/OurContacts";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route path="/connectwallet">
         <ConnectWallet />
+      </Route>
+      <Route path="/ourcontacts">
+        <OurContacts />
       </Route>
     </>
   );

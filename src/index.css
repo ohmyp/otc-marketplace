@@ -105,8 +105,10 @@
 @import url(./blocks/footer/__text/footer__text.css);
 @import url(./blocks/footer/__border/footer__border.css);
 
-/* NOTIFICATIONS */
+/* MENU */
 @import url(./blocks/notifications/notifications.css);
+@import url(./blocks/liked/liked.css);
+@import url(./blocks/wallet/wallet.css);
 
 /* CONNECTION */
 @import url(./blocks/connection/__circle/connection__circle.css);
@@ -120,3 +122,9 @@
 @import url(./blocks/connection/connection.css);
 @import url(./blocks/connection/__wallets-showmore/connection__wallets-showmore.css);
 
+/* OURCONTACTS */
+@import url('./blocks/ourcontacts/__links-circle/ourcontacts__links-circle.css');
+@import url('./blocks/ourcontacts/__links-link/ourcontacts__links-link.css');
+@import url('./blocks/ourcontacts/__links/ourcontacts__links.css');
+@import url('./blocks/ourcontacts/__title/ourcontacts__title.css');
+@import url('./blocks/ourcontacts/ourcontacts.css');

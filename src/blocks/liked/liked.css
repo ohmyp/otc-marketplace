@@ -1,4 +1,4 @@
-.notifications {
+.liked {
   min-width: 300px;
   position: absolute;
   right: calc(100% + 5px);
@@ -12,27 +12,27 @@
   -o-border-radius: 15px 0 15px 15px;
 }
 
-.notifications__line {
+.liked__line {
+  text-transform: none;
   position: relative;
   margin: 0;
   padding: 15px;
   display: flex;
   flex-direction: row;
-  gap: 10px;
   justify-content: space-between;
   text-align: left;
   align-items: center;
+  gap: 10px;
 }
 
-.notifications__line:not(:last-child) {
+.liked__line:not(:last-child) {
   border-bottom: 1px solid white;
 }
 
-.notifications__text {
-  text-transform: none;
+.liked__text {
   margin: 0;
-  position: relative;
-  max-width: 90%;
+  width: 90%;
+  text-align: left;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
@@ -40,24 +40,10 @@
   line-height: 16px;
 }
 
-.notifications__info-icon {
+.liked__info-icon {
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.notifications__text.dotted::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  background: red;
-  position: absolute;
-  right: -5px;
-  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
