@@ -1,6 +1,6 @@
 .footer__border{
   position: absolute;
-  width: 100vw;
+  width: 100%;
   border: 1px solid white;
   left: 0;
 }

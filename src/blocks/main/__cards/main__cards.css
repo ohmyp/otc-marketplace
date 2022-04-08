@@ -1,8 +1,9 @@
 .main__cards{
   width: 50%;
-  height: 580px;
+  height: 600px;
   position: relative;
   display: flex;
+  overflow: visible;
   flex-direction: row;
   justify-content: center;
   align-items: center;
