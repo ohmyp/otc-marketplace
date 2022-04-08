@@ -1,6 +1,9 @@
 .swiper {
   margin-right: 0 !important;
   margin-left: 0 !important;
+  background-image: url('../../images/background image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .main-slider .swiper-scrollbar {
@@ -10,7 +13,7 @@
 }
 
 .main-slider .swiper-wrapper {
-  margin-left: 9px;
+  position: relative;
   width: 600px !important;
   height: 620px !important;
   transition: ease 1s !important;
@@ -30,4 +33,37 @@
 .main-slider .swiper-scrollbar-drag {
   cursor: pointer;
   background-color: white;
+}
+
+.main-slider .swiper-button-prev{
+  width: 30px;
+  height: 30px;
+  background: url('../../images/Arrow left.svg') no-repeat !important;
+  background-position: center !important;
+  background-size: 30px 30px !important;
+  left: 0px;
+  top: 49.5%;
+  z-index: 10;
+  position: absolute;
+}
+
+.main-slider .swiper-button-prev::after{
+  content: "";
+}
+
+
+.main-slider .swiper-button-next{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('../../images/Arrow right.svg') no-repeat !important;
+  background-position: center !important;
+  background-size: 30px 30px !important;
+  right: 0px;
+  top: 49.5%;
+  z-index: 10;
+}
+
+.main-slider .swiper-button-next::after{
+  content: "";
 }

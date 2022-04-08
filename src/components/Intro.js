@@ -22,11 +22,6 @@ function Intro() {
       </div>
       <div className="main__cards">
         <MainSlider />
-        <img
-          className="main__background-img"
-          src={backgroundImagePath}
-          alt="Background image"
-        />
       </div>
     </section>
   );
