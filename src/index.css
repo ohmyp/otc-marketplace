@@ -128,3 +128,6 @@
 @import url('./blocks/ourcontacts/__links/ourcontacts__links.css');
 @import url('./blocks/ourcontacts/__title/ourcontacts__title.css');
 @import url('./blocks/ourcontacts/ourcontacts.css');
+
+/* BASKET */
+@import url(./blocks/basket/basket.css);

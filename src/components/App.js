@@ -4,6 +4,7 @@ import AboutUs from "../pages/AboutUs";
 import { Route } from "react-router-dom";
 import ConnectWallet from "../pages/ConnectWallet";
 import OurContacts from "../pages/OurContacts";
+import Basket from "../pages/Basket";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </Route>
       <Route path="/ourcontacts">
         <OurContacts />
+      </Route>
+      <Route path="/basket">
+        <Basket />
       </Route>
     </>
   );

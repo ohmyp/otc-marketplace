@@ -1,0 +1,110 @@
+.basket{
+  margin: 60px 0;
+}
+.basket__title {
+  font-family: 'Bamf Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+}
+
+.backet__item {
+  background: radial-gradient(172.98% 232.07% at -53.48% -71.39%, rgba(220, 214, 214, 0.9) 0%, rgba(255, 255, 255, 0) 100%) ;
+  margin: 20px 0;
+  padding: 20px;
+  position: relative;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Bamf Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.backet__item-image {
+  width: 125px;
+}
+
+.backet__item-cost {
+  position: absolute;
+  right: 20px;
+}
+
+.backet__item-buttons{
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.backet__item-button{
+  font-family: 'Bamf Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  width: 100px;
+  background-color: white;
+  border-radius: 0;
+  border: 1px solid white;
+  border-right: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.backet__item-button.black{
+  background-color: black;
+  color: white;
+}
+
+.backet__item-button:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.backet__item-button.black:hover {
+  color: black;
+  background-color: white;
+}
+
+.backet_button{
+  padding: 20px;
+  position: relative;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  font-family: 'Bamf Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.backet_button:hover{
+  background-color: white;
+  color: black;
+}
