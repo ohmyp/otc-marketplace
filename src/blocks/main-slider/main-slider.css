@@ -2,7 +2,8 @@
   margin-right: 0 !important;
   margin-left: 0 !important;
   background-image: url('../../images/background image.png');
-  background-size: contain;
+  background-position: center;
+  background-size: 95%;
   background-repeat: no-repeat;
 }
 
@@ -42,7 +43,7 @@
   background-position: center !important;
   background-size: 30px 30px !important;
   left: 0px;
-  top: 49.5%;
+  top: 51%;
   z-index: 10;
   position: absolute;
 }
@@ -60,7 +61,7 @@
   background-position: center !important;
   background-size: 30px 30px !important;
   right: 0px;
-  top: 49.5%;
+  top: 51%;
   z-index: 10;
 }
 

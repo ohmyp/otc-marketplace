@@ -3,8 +3,8 @@ import { Scrollbar, A11y, Autoplay, Navigation } from "swiper";
 
 import "swiper/css";
 import "swiper/css/scrollbar";
-import "swiper/css/autoplay"
-import "swiper/css/navigation"
+import "swiper/css/autoplay";
+import "swiper/css/navigation";
 
 import Card from "./Card";
 
@@ -22,10 +22,11 @@ function MainSlider() {
       slidesPerView={2}
       navigation
       scrollbar={{ draggable: true, dragSize: 60 }}
-      autoplay={{ delay: 4000, disableOnInteraction:false }}
+      autoplay={{ delay: 4000, disableOnInteraction: false }}
     >
       <SwiperSlide>
         <Card
+          slide={true}
           id=""
           title="Heathens"
           price={200}
@@ -33,10 +34,17 @@ function MainSlider() {
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Card id="" title="Blvck" price={450} imagePath={blvckImagePath} />
+        <Card
+          slide={true}
+          id=""
+          title="Blvck"
+          price={450}
+          imagePath={blvckImagePath}
+        />
       </SwiperSlide>
       <SwiperSlide>
         <Card
+          slide={true}
           id=""
           title="Kraken Secret Society"
           price={320}
@@ -45,6 +53,7 @@ function MainSlider() {
       </SwiperSlide>
       <SwiperSlide>
         <Card
+          slide={true}
           id=""
           title="Warriors Of Ankh"
           price={200}
