@@ -5,7 +5,7 @@ import { A11y, Autoplay, EffectCards } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
 
-import Card from "./Card";
+import ShopCard from "./ShopCard";
 
 import heathensImagePath from "../images/heathens.png";
 import blvckImagePath from "../images/blvck.png";
@@ -24,8 +24,7 @@ function AboutSlider() {
       autoplay={{ delay: 4000, disableOnInteraction: false }}
     >
       <SwiperSlide>
-        <Card
-          slide={true}
+        <ShopCard
           id=""
           title="Heathens"
           price={200}
@@ -33,8 +32,7 @@ function AboutSlider() {
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Card
-          slide={true}
+        <ShopCard
           id=""
           title="Blvck"
           price={450}
@@ -42,8 +40,7 @@ function AboutSlider() {
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Card
-          slide={true}
+        <ShopCard
           id=""
           title="Kraken Secret Society"
           price={320}
@@ -51,8 +48,7 @@ function AboutSlider() {
         />
       </SwiperSlide>
       <SwiperSlide>
-        <Card
-          slide={true}
+        <ShopCard
           id=""
           title="Warriors Of Ankh"
           price={200}

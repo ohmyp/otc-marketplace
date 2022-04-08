@@ -122,6 +122,16 @@
 @import url(./blocks/connection/connection.css);
 @import url(./blocks/connection/__wallets-showmore/connection__wallets-showmore.css);
 
+/* SHOP-CARD */ 
+@import url(./blocks/shop-card/shop-card.css);
+@import url(./blocks/shop-card/__title/shop-card__title.css);
+@import url(./blocks/shop-card/__price/shop-card__price.css);
+@import url(./blocks/shop-card/__image/shop-card__image.css);
+@import url(./blocks/shop-card/__info-container/shop-card__info-container.css);
+@import url(./blocks/shop-card/__buy-button/shop-card__buy-button.css);
+@import url(./blocks/shop-card/__info-wrapper/shop-card__info-wrapper.css);
+
+
 /* OURCONTACTS */
 @import url('./blocks/ourcontacts/__links-circle/ourcontacts__links-circle.css');
 @import url('./blocks/ourcontacts/__links-link/ourcontacts__links-link.css');

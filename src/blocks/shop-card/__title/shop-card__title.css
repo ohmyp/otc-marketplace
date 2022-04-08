@@ -1,0 +1,10 @@
+.shop-card__title {
+  margin: 0 0 0 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}

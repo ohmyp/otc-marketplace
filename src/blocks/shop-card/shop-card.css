@@ -1,0 +1,8 @@
+.shop-card {
+  position: relative;
+  width: 340px;
+  background-color: black;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(21px);
+  margin: 0px auto 0px auto;
+}

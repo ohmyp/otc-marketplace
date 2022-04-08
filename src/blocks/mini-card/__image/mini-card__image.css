@@ -1,5 +1,7 @@
-.mini-card__image{
-    width: 65px;
-    height: 65px;
-    grid-area: img;
+.mini-card__image {
+  width: 65px;
+  height: 65px;
+  filter: drop-shadow(20px 20px 18px rgba(0, 0, 0, 0.28));
+  border-radius: 20px;
+  grid-area: img;
 }

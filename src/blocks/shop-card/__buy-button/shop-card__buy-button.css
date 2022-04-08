@@ -1,0 +1,16 @@
+.shop-card__buy-button {
+  padding: 0;
+  margin: auto auto;
+  width: 170px;
+  height: 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+  background: transparent;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
