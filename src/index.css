@@ -79,6 +79,7 @@
 @import url(./blocks/properties/__top-arc/properties__top-arc.css);
 @import url(./blocks/properties/__grid/properties__grid.css);
 @import url(./blocks/properties/__bottom-arc/properties__bottom-arc.css);
+@import url(./blocks/properties/__background-picture/properties__background-picture.css);
 
 /* INFO-CARD */
 @import url(./blocks/info-card/info-card.css);
