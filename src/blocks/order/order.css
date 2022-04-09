@@ -1,0 +1,10 @@
+.order__item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.order{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 150px
+}

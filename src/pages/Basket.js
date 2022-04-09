@@ -39,9 +39,7 @@ const Basket = () => {
             </div>
           </div>
           <button className="backet_button">buy</button>
-
         </div>
-        
       </section>
       <Footer/>
     </>

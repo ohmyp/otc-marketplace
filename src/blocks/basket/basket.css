@@ -10,7 +10,9 @@
   font-size: 44px;
   text-align: center;
 }
-
+.backet__item-text{
+  margin: 0 0 0 20px;
+}
 .backet__item {
   background: radial-gradient(172.98% 232.07% at -53.48% -71.39%, rgba(220, 214, 214, 0.9) 0%, rgba(255, 255, 255, 0) 100%) ;
   margin: 20px 0;
@@ -35,6 +37,7 @@
 
 .backet__item-image {
   width: 125px;
+  filter: drop-shadow(20px 20px 18px rgba(0, 0, 0, 0.28));
 }
 
 .backet__item-cost {
@@ -68,6 +71,8 @@
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  cursor: pointer;
+
 }
 
 .backet__item-button.black{
@@ -104,6 +109,8 @@
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  cursor: pointer;
+
 }
 
 .backet_button:hover{

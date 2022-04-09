@@ -141,3 +141,9 @@
 
 /* BASKET */
 @import url(./blocks/basket/basket.css);
+
+/* ORDER */
+@import url('./blocks/order/order.css');
+@import url('./blocks/order/order__info.css');
+@import url('./blocks/order/order__card.css');
+@import url('./blocks/order/order__more.css');

@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 import ConnectWallet from "../pages/ConnectWallet";
 import OurContacts from "../pages/OurContacts";
 import Basket from "../pages/Basket";
+import Order from "../pages/Order";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       </Route>
       <Route path="/basket">
         <Basket />
+      </Route>
+      <Route path="/order">
+        <Order />
       </Route>
     </>
   );
