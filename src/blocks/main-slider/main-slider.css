@@ -3,6 +3,13 @@
   margin-left: 0 !important;
 }
 
+.main-slider{
+  background-image: url('../../images/background image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
 .main-slider .swiper-scrollbar {
   margin-left: 33%;
   width: 33% !important;
@@ -11,10 +18,7 @@
 
 .main-slider .swiper-wrapper {
   position: relative;
-  background-image: url('../../images/background image.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 95%;
+  
   width: 600px !important;
   height: 620px !important;
   transition: ease 1s !important;
