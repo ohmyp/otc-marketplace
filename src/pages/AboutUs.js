@@ -7,11 +7,11 @@ import arrowPath from "../images/arrow line.svg";
 import topArcPath from "../images/top-arc.png";
 import bottomArcPath from "../images/bottom-arc.png";
 
-
 import safetyPath from "../images/safety.png";
 import firstPath from "../images/first.png";
 import fastPath from "../images/fast.png";
 import automaticPath from "../images/automatic.png";
+import circlePath from "../images/background-circle.png";
 
 function AboutUs() {
   return (
@@ -69,31 +69,68 @@ function AboutUs() {
         <button className="main__button">Start</button>
       </section>
       <section className="properties">
-        <img className="properties__top-arc" src={topArcPath} alt="Top arc picture"/>
+        <img
+          className="properties__top-arc"
+          src={topArcPath}
+          alt="Top arc picture"
+        />
         <div className="properties__grid">
-            <div className="info-card">
-                <img className="info-card__logo" src={safetyPath}/>
-                <h4 className="info-card__title">safety</h4>
-                <p className="info-card__text">We don't keep data about your accounts, we have introduced a whitelist verification system so that customers don't get an unknown product. That's the main goal - when you buy, we give you confidence that you won't be cheated and you'll get what you want.</p>
-            </div>
-            <div className="info-card">
-                <img className="info-card__logo" src={fastPath}/>
-                <h4 className="info-card__title">fast</h4>
-                <p className="info-card__text">We care about the speed of the transaction as much as you do, so we also plan to introduce a wallet connection feature to speed up the buying process even more, and now you can make a purchase, as well as the sale of whitelists in a few clicks.</p>
-            </div>
-            <div className="info-card">
-                <img className="info-card__logo" src={firstPath}/>
-                <h4 className="info-card__title">first</h4>
-                <p className="info-card__text">It was our team's idea to come up with a site that would combine all the features that conventional OTC channels lack and improve, speed up, and secure the process of exchanging whitelists between buyer and seller.</p>
-            </div>
-            <div className="info-card">
-                <img className="info-card__logo" src={automaticPath}/>
-                <h4 className="info-card__title">automatic</h4>
-                <p className="info-card__text">Our marketplace has automated the process of buying and selling whitelist as much as possible, up to the fact that it can be done in one click</p>
-            </div>
+          <div className="info-card">
+            <img className="info-card__logo" src={safetyPath} />
+            <h4 className="info-card__title">safety</h4>
+            <p className="info-card__text">
+              We don't keep data about your accounts, we have introduced a
+              whitelist verification system so that customers don't get an
+              unknown product. That's the main goal - when you buy, we give you
+              confidence that you won't be cheated and you'll get what you want.
+            </p>
+          </div>
+          <div className="info-card">
+            <img className="info-card__logo" src={fastPath} />
+            <h4 className="info-card__title">fast</h4>
+            <p className="info-card__text">
+              We care about the speed of the transaction as much as you do, so
+              we also plan to introduce a wallet connection feature to speed up
+              the buying process even more, and now you can make a purchase, as
+              well as the sale of whitelists in a few clicks.
+            </p>
+          </div>
+          <div className="info-card">
+            <img className="info-card__logo" src={firstPath} />
+            <h4 className="info-card__title">first</h4>
+            <p className="info-card__text">
+              It was our team's idea to come up with a site that would combine
+              all the features that conventional OTC channels lack and improve,
+              speed up, and secure the process of exchanging whitelists between
+              buyer and seller.
+            </p>
+          </div>
+          <div className="info-card">
+            <img className="info-card__logo" src={automaticPath} />
+            <h4 className="info-card__title">automatic</h4>
+            <p className="info-card__text">
+              Our marketplace has automated the process of buying and selling
+              whitelist as much as possible, up to the fact that it can be done
+              in one click
+            </p>
+          </div>
         </div>
-        <img className="properties__bottom-arc" src={bottomArcPath} alt=" arc picture"/>
+        <img
+          className="properties__bottom-arc"
+          src={bottomArcPath}
+          alt=" arc picture"
+        />
       </section>
+      <img
+        className="properties__background-picture"
+        src={circlePath}
+        alt="Background circle 1"
+      />
+      <img
+        className="properties__background-picture"
+        src={circlePath}
+        alt="Background circle 2"
+      />
       <Footer />
     </>
   );
