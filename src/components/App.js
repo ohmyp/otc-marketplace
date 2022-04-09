@@ -6,6 +6,7 @@ import ConnectWallet from "../pages/ConnectWallet";
 import OurContacts from "../pages/OurContacts";
 import Basket from "../pages/Basket";
 import Order from "../pages/Order";
+import { useEffect } from "react";
 
 function App() {
   return (

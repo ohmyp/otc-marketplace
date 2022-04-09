@@ -16,7 +16,7 @@ function Header() {
             <li className={"header__nav-link " + (history === '/market' ?'selected':"")}><Link to='/market'>Market</Link></li>
             <li className={"header__nav-link " + (history === '/aboutUs' ?'selected':"")}><Link to='/aboutUs'>About Us</Link></li>
             <li className={"header__nav-link " + (history === '/ourcontacts' ?'selected':"")}><Link to='ourcontacts'>Contacts</Link></li>
-            <li className="header__nav-link"><Link>Soon 🔥</Link></li>
+            <li className="header__nav-link"><a>Soon 🔥</a></li>
             <div className="header__nav-search-container">
               <input type="text" className="header__nav-search" />
               <img className="header__nav-icon" src={searchIconPath} alt="" />
